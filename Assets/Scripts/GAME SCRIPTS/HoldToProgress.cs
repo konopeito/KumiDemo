@@ -49,7 +49,7 @@ public class HoldToProgress : MonoBehaviour
         }
         
         }
-    private void ResetHold()
+    public void ResetHold()
     {
         isHolding=false;
         holdTimer = 0;
